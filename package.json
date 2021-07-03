@@ -1,0 +1,23 @@
+{
+  "name": "auditoria_bot",
+  "version": "1.0.0",
+  "description": "Bot de Telegram",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js -e *"
+  },
+  "author": "Belizario y Porlles",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dialogflow": "^1.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.53.0",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  }
+}
